@@ -1,0 +1,26 @@
+[theme]
+# Tema del dashboard
+primaryColor = "#4ECDC4"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Configuración del servidor
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[browser]
+# Configuración del navegador
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[runner]
+# Configuración de ejecución
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
