@@ -231,16 +231,16 @@ def main():
         num_keys = st.slider(
             "Número de Claves Únicas",
             min_value=10,
-            max_value=10000,
+            max_value=100000,
             value=100,
-            step=10,
+            step=100,
             help="Cuántas claves diferentes en el workload"
         )
         
         num_operations = st.slider(
             "Número de Operaciones",
             min_value=100,
-            max_value=100000,
+            max_value=1000000,
             value=1000,
             step=100,
             help="Cuántas operaciones ejecutar"
