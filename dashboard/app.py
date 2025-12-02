@@ -15,9 +15,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://github.com/2pak163/cache-system',
+        'Get Help': 'https://github.com/2pak163/cache_system',
         'Report a bug': 'https://github.com/2pak163/cache-system/issues',
-        'About': """
+        'About': """    
         # Sistema de Caché Multinivel
         
         Simulador interactivo para políticas de caché y jerarquías multinivel.
@@ -161,11 +161,6 @@ def main():
             "icon": "🔬",
             "title": "Comparación",
             "description": "Compara diferentes políticas y configuraciones lado a lado."
-        },
-        {
-            "icon": "📈",
-            "title": "Análisis",
-            "description": "Análisis detallado de rendimiento con gráficos y métricas avanzadas."
         }
     ]
     
@@ -183,7 +178,6 @@ def main():
     2. **Configura** tu jerarquía de caché en la página de Overview
     3. **Ejecuta** simulaciones en la página de Simulación
     4. **Compara** diferentes configuraciones en la página de Comparación
-    5. **Analiza** los resultados detallados en la página de Análisis
     """)
     
     # Información adicional en sidebar
