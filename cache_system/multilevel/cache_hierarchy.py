@@ -116,13 +116,8 @@ class CacheHierarchy:
     def put(self, key: Any, value: Any) -> None:
         if not self._levels:
             raise RuntimeError("No hay niveles de caché en la jerarquía.")
-        
-        l1= self._levels[0]
-        l1.cache.put(key, value)
-
-        for level in self._levels[1:]:
-            if level.cache.contains(key):
-                level.cache.put(key, value)
+        for level in self._levels:
+            level.cache.put(key, value)
     
     def delete(self, key: Any) -> bool:
         deleted= False
