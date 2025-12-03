@@ -12,6 +12,7 @@ port = 8501
 enableCORS = false
 enableXsrfProtection = true
 maxUploadSize = 200
+maxMessageSize = 200 
 
 [browser]
 # Configuración del navegador
@@ -24,3 +25,4 @@ serverPort = 8501
 magicEnabled = true
 installTracer = false
 fixMatplotlib = true
+fastReruns = true   

@@ -1,0 +1,30 @@
+# ============================================
+# REQUISITOS PARA CACHE SYSTEM DASHBOARD
+# ============================================
+# Basado en tu entorno local (Diciembre 2024)
+
+# Framework principal
+streamlit==1.51.0
+
+# Visualización y gráficos
+plotly==6.5.0
+altair==5.5.0
+
+# Procesamiento de datos
+pandas==2.3.3
+numpy==2.3.3
+
+# Utilidades
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# ============================================
+# DEPENDENCIAS OPCIONALES (Development)
+# ============================================
+# Descomentar para testing local:
+# pytest>=8.3.0
+# pytest-cov>=6.0.0
+
+# Descomentar para formateo de código:
+# black>=24.10.0
+# flake8>=7.1.0
